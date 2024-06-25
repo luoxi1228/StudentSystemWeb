@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#sidebar {
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: #007BFF; /* 蓝色背景 */
+    padding-top: 20px;
+    position: fixed;
+}
+#sidebar h1 {
+    text-align: center;
+    color: white; /* 标题文字
+颜色 */
+}
+
+#sidebar h3 {
+    text-align: center;
+    color: white; /* 标题文字
+颜色 */
+}
+#sidebar hr {
+    color: white; /* 标题文字
+颜色 */
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#sidebar ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white; /* 链接文字颜色 */
+    background-color: #0056b3; /* 链接的背景颜色 */
+    border-radius: 4px;
+}
+
+#sidebar ul li a:hover {
+    background-color: #004494; /* 链接悬停背景颜色 */
+}
+
+#content {
+    margin-left: 220px; /* 调整左边距以适应侧边栏宽度 */
+    padding: 20px;
+}
+
+#content h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

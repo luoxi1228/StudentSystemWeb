@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: url(../imgs/reg_bg_min.jpg) no-repeat 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#registerDiv {
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(75, 81, 95, 0.3);
+    box-shadow: 7px 7px 17px rgba(52, 56, 66, 0.5);
+    border-radius: 5px;
+}
+
+h1 {
+    color: azure;
+    margin-bottom: 20px;
+}
+
+label {
+    color: azure;
+}
+
+.inputField {
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+#faculty {
+    background-color: rgb(255, 255, 255); /* 设置学院选择框的背景颜色为深色 */
+}
+
+#commonFields {
+    margin-bottom: 20px;
+}
+
+#studentSpecific, #teacherSpecific {
+    display: none;
+}
+
+.button {
+    background-color: rgba(100, 149, 237, .7);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 31px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#loginLink {
+    color: aliceblue;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#message {
+    color: yellow;
+    margin-bottom: 20px;
+}
+#errorMsg {
+    display: block; /* 确保是显示的 */
+    color: red;     /* 给错误消息一个明显的颜色 */
+}
